@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a26e3a80-2deb-4637-919e-3bb1fbc38a97" name="Default Changelist" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/SFMTA_Transit_Data_License_Agreement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/agency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/calendar.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/calendar_dates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/fare_attributes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/fare_rules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/routes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/shapes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/stop_times.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/stops.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/google_transit/trips.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/agency.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/calendar.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/calendar_attributes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/calendar_dates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/directions.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/fare_attributes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/fare_rider_categories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/fare_rules.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/feed_info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/realtime_routes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/rider_categories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/routes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/shapes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/stop_times.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/stops.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/transfers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gtfs/trips.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/project/DijkstraSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/project/DijkstraTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Project/project/WDGraph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/DijkstraSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/DijkstraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/project/WDGraph.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1txT7gpbtPDzXMENQEVFLFZ6VWZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Isep Docs\2020_2021\Algorithmique et programmation\Project\Project" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DijkstraTest.given_positiveValues_when_verifyNonNegativeTest_then_true">
+    <configuration name="DijkstraSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraSP" />
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.add_weights_to_graph_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project" />
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
+      <option name="METHOD_NAME" value="add_weights_to_graph_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.given_FTVL_and_SHAY_when_distTo_then_print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project" />
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
+      <option name="METHOD_NAME" value="given_FTVL_and_SHAY_when_distTo_then_print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.given_positiveValues_when_verifyNonNegativeTest_then_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project" />
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
+      <option name="METHOD_NAME" value="given_positiveValues_when_verifyNonNegativeTest_then_true" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.test_printSP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project" />
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
+      <option name="METHOD_NAME" value="test_printSP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DijkstraTest.given_positiveValues_when_verifyNonNegativeTest_then_true" />
+        <item itemvalue="Application.DijkstraSP" />
+        <item itemvalue="JUnit.DijkstraTest.given_FTVL_and_SHAY_when_distTo_then_print" />
+        <item itemvalue="JUnit.DijkstraTest.test_printSP" />
+        <item itemvalue="JUnit.DijkstraTest.add_weights_to_graph_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a26e3a80-2deb-4637-919e-3bb1fbc38a97" name="Default Changelist" comment="" />
+      <created>1623709574342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623709574342</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+</project>

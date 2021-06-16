@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a26e3a80-2deb-4637-919e-3bb1fbc38a97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/project/DijkstraSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/project/DijkstraSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/project/DijkstraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/project/DijkstraTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/project/WDGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/project/WDGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/DijkstraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/BFSShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/BFSShortestPath.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DijkstraTest.printGraphTest">
+  <component name="RunManager" selected="JUnit.BFSTest.bfsTest">
     <configuration name="BFSTest.bfsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
@@ -136,9 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BFSTest.bfsTest" />
         <item itemvalue="JUnit.DijkstraTest.printGraphTest" />
         <item itemvalue="JUnit.DijkstraTest.test_printSP" />
-        <item itemvalue="JUnit.BFSTest.bfsTest" />
         <item itemvalue="JUnit.DijkstraTest.TESTremoveEdgesWithHighestBetweenness" />
         <item itemvalue="JUnit.DijkstraTest.TESTgetBetweennessOfAllEdges" />
       </list>
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623882757149</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some path modification">
+      <created>1623885215668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623885215668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="added part 4 clustering" />
-    <option name="LAST_COMMIT_MESSAGE" value="added part 4 clustering" />
+    <MESSAGE value="some path modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="some path modification" />
   </component>
 </project>

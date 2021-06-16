@@ -6,8 +6,6 @@ public class BFSShortestPath {
 	public static ArrayList<String> doBFSShortestPath(WDGraph graph, String source, String dest) {
 		ArrayList<String> shortestPathList = new ArrayList<>();
 		HashMap<String, Boolean> visited = new HashMap<>();
-		HashMap<String, Integer> distances = new HashMap<>();
-		graph.nodesToVisit.forEach(node -> distances.put(node, Integer.MAX_VALUE));
 
 		if (source.equals(dest))
 			return null;
@@ -16,7 +14,6 @@ public class BFSShortestPath {
 
 		queue.add(source);
 		visited.put(source, true);
-		distances.put(source, 0);
 
 		while (!queue.isEmpty()) {
 
@@ -28,7 +25,6 @@ public class BFSShortestPath {
 				if (!visited.containsKey(v)) {
 					queue.add(v);
 					visited.put(v, true);
-					distances.put(v, distances.get(v) + 1);
 				}
 			}
 		}

@@ -116,4 +116,45 @@ public class DijkstraTest {
         GRAPH_TEST.addWeightsToGraph( "../gtfs/");
         GRAPH_TEST.printSP("LAKE","WCRK");
     }
+
+
+// #############
+
+    @Test
+    public void TESTgetListOfStopIds() throws IOException {
+        GRAPH_TEST.importGraph("../gtfs/");
+        GRAPH_TEST.addWeightsToGraph( "../gtfs/");
+        //GRAPH_TEST.getStopsList().forEach((key, value) -> System.out.println(key + " = " +  value[0] + ", " + value[1] + ", " + value[2]));
+        System.out.println(GRAPH_TEST.getListOfStopIds());
+    }
+
+
+    @Test
+    public void TESTgetBetweenness() throws IOException {
+        GRAPH_TEST.importGraph("../gtfs/");
+        GRAPH_TEST.addWeightsToGraph( "../gtfs/");
+        System.out.println(GRAPH_TEST.getBetweennessOfEdge("16TH", "24TH", GRAPH_TEST.getAllShortestPathFromAllNodesToAllNodes()));
+        System.out.println(GRAPH_TEST.getBetweennessOfEdge("PLZA", "NBRK", GRAPH_TEST.getAllShortestPathFromAllNodesToAllNodes()));
+        System.out.println(GRAPH_TEST.getBetweennessOfEdge("MCAR", "ROCK", GRAPH_TEST.getAllShortestPathFromAllNodesToAllNodes()));
+        System.out.println(GRAPH_TEST.getBetweennessOfEdge("MCAR", "19TH", GRAPH_TEST.getAllShortestPathFromAllNodesToAllNodes()));
+    }
+//738
+//282
+//800
+//1122
+
+    @Test
+    public void TESTgetBetweennessOfAllEdges() throws IOException {
+        GRAPH_TEST.importGraph("../gtfs/");
+        GRAPH_TEST.addWeightsToGraph( "../gtfs/");
+        GRAPH_TEST.getBetweennessOfAllEdges().forEach((key, value) -> System.out.println(key[0] + "-" + key[1] + " : " + value));
+    }
+
+    @Test
+    public void TESTremoveEdgesWithHighestBetweenness() throws IOException {
+        GRAPH_TEST.importGraph("../gtfs/");
+        GRAPH_TEST.addWeightsToGraph( "../gtfs/");
+        GRAPH_TEST.removeEdgesWithHighestBetweenness(10)
+                .forEach((key, value) -> System.out.println(key[0] + "-" + key[1] + " : " + value));
+    }
 }

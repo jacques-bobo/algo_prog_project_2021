@@ -34,6 +34,8 @@ public class DijkstraSP {
 
     public static List<HashMap> DijkstraSP(WDGraph graph, String startingNode) throws IOException {
 
+        graph.initNodesToVisit();
+
         if (!verifyNonNegative(graph)){
             System.out.println("One of the distances is negative");
             return null;
@@ -49,12 +51,12 @@ public class DijkstraSP {
         while (graph.nodesToVisit.size() > 0){
             Double valueOfCurrentNode = distancesOfEachNodesFromStart.get(currentNode);
             List<String> neighborsToVisit = graph.getAccessibleNeighbours(currentNode);
-            System.out.println(currentNode + " : " + neighborsToVisit);
+            //System.out.println(currentNode + " : " + neighborsToVisit);
             List<Double> distancesOfNeighbors = new ArrayList();
             for (String neighbor : neighborsToVisit){
                 distancesOfNeighbors.add(graph.getCostOfEdge(currentNode,neighbor));
             }
-            System.out.println(distancesOfNeighbors);
+            //System.out.println(distancesOfNeighbors);
 
             for (String neighbor : neighborsToVisit) {
                 Double currentValueOfNeighbor = distancesOfEachNodesFromStart.get(neighbor);

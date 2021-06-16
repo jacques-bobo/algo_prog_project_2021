@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26e3a80-2deb-4637-919e-3bb1fbc38a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple_KQuickest_Graph.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kQuickestPaths/DiGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kQuickestPaths/KQuickestPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kQuickestPaths/KQuickestPathsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project/BFSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/DijkstraSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/DijkstraSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/DijkstraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/WDGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/WDGraph.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DijkstraTest.given_FTVL_and_SHAY_when_distTo_then_print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DijkstraTest.TESTgetBetweenness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +79,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="project" />
       <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
-      <option name="METHOD_NAME" value="given_FTVL_and_SHAY_when_distTo_then_print" />
+      <option name="METHOD_NAME" value="TESTgetBetweenness" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DijkstraTest.test_printSP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DijkstraTest.TESTgetBetweennessOfAllEdges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
         <pattern>
@@ -98,39 +95,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="project" />
       <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
-      <option name="METHOD_NAME" value="test_printSP" />
+      <option name="METHOD_NAME" value="TESTgetBetweennessOfAllEdges" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KQuickestPathsTest.importSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DijkstraTest.TESTgetListOfStopIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kQuickestPaths.*" />
+          <option name="PATTERN" value="project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kQuickestPaths" />
-      <option name="MAIN_CLASS_NAME" value="kQuickestPaths.KQuickestPathsTest" />
-      <option name="METHOD_NAME" value="importSimpleTest" />
+      <option name="PACKAGE_NAME" value="project" />
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
+      <option name="METHOD_NAME" value="TESTgetListOfStopIds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KQuickestPathsTest.initCapacitiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DijkstraTest.TESTremoveEdgesWithHighestBetweenness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kQuickestPaths.*" />
+          <option name="PATTERN" value="project.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="kQuickestPaths" />
-      <option name="MAIN_CLASS_NAME" value="kQuickestPaths.KQuickestPathsTest" />
-      <option name="METHOD_NAME" value="initCapacitiesTest" />
+      <option name="PACKAGE_NAME" value="project" />
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
+      <option name="METHOD_NAME" value="TESTremoveEdgesWithHighestBetweenness" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,10 +136,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BFSTest.bfsTest" />
-        <item itemvalue="JUnit.DijkstraTest.test_printSP" />
-        <item itemvalue="JUnit.DijkstraTest.given_FTVL_and_SHAY_when_distTo_then_print" />
-        <item itemvalue="JUnit.KQuickestPathsTest.initCapacitiesTest" />
-        <item itemvalue="JUnit.KQuickestPathsTest.importSimpleTest" />
+        <item itemvalue="JUnit.DijkstraTest.TESTremoveEdgesWithHighestBetweenness" />
+        <item itemvalue="JUnit.DijkstraTest.TESTgetBetweennessOfAllEdges" />
+        <item itemvalue="JUnit.DijkstraTest.TESTgetBetweenness" />
+        <item itemvalue="JUnit.DijkstraTest.TESTgetListOfStopIds" />
       </list>
     </recent_temporary>
   </component>

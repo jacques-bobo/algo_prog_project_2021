@@ -139,6 +139,8 @@ public class WDGraph {
     }
 
 
+
+
     public static List<String> stringArrayListFromStringSet(Set<String> set){
         List<String> list = new ArrayList<>();
         for(String element : set){
@@ -184,6 +186,81 @@ public class WDGraph {
 
     public void printSP(String start, String dest) throws IOException {
         System.out.println(DijkstraSP.DijkstraSP(this,start).get(0).get(dest));
+    }
+
+
+    public HashSet<String> getListOfStopIds(){
+        HashSet<String> nodes = new HashSet<>();
+        for (Object[] edge : this.getGraphList()) {
+            nodes.add((String) edge[0]);
+            nodes.add((String) edge[1]);
+        }
+        return nodes;
+    }
+
+    public HashSet getAllShortestPathFromAllNodesToAllNodes() throws  IOException {
+        HashSet<String> stopsIds = this.getListOfStopIds();
+        HashSet shortestPaths = new HashSet();
+        for (String stop : stopsIds){
+            //System.out.println(stop);
+            DijkstraSP.DijkstraSP(this, stop).get(0).values().forEach((path) -> shortestPaths.add(path));
+        }
+        //shortestPaths.forEach((elt) -> System.out.println(elt));
+        return shortestPaths;
+    }
+
+    public Integer getBetweennessOfEdge(Object node1, Object node2, HashSet paths) throws IOException {
+        Integer betweenness = 0;
+        for (Object path : paths){
+            List pathAsList = (List) path;
+            //pathAsList.forEach((elt)-> System.out.print(elt + ", "));
+            //System.out.println();
+            if (pathAsList.contains(node1) && pathAsList.contains((node2))){
+                betweenness++;
+            }
+        }
+        return betweenness;
+    }
+
+    public HashMap<String[], Integer> getBetweennessOfAllEdges() throws IOException {
+        HashMap betweennesses = new HashMap();
+        HashSet allShortestPaths = getAllShortestPathFromAllNodesToAllNodes();
+        for (Object[] edge : this.getGraphList()){
+            String[] edgeBis = {(String) edge[0], (String) edge[1]};
+            Integer edgeBetweenness = getBetweennessOfEdge(edge[0], edge[1], allShortestPaths);
+            betweennesses.put(edgeBis, edgeBetweenness);
+        }
+        return betweennesses;
+    }
+
+    public HashMap<String[], Integer> removeEdgesWithHighestBetweenness(int numberOfEdgesToRemove) throws IOException {
+        HashMap<String[], Integer> betweennessesOfEdges = this.getBetweennessOfAllEdges();
+        Collection betweennessesCollection = betweennessesOfEdges.values();
+        List<Integer> betweennessesList = new ArrayList<>();
+        betweennessesCollection.forEach((value) -> betweennessesList.add((Integer) value));
+        List<String[]> removedEdges = new ArrayList<>();
+
+        Collections.sort(betweennessesList);
+        for (int i=1; i<=numberOfEdgesToRemove; i++){
+            Integer highestBetweenness = betweennessesList.get(betweennessesList.size()-i);
+            String[] correspondingKey = getKeyFromValue(betweennessesOfEdges,highestBetweenness);
+            System.out.println("Removing " + correspondingKey[0] + "-" + correspondingKey[1] + " : " + highestBetweenness);
+            removedEdges.add(correspondingKey);
+            betweennessesOfEdges.remove(correspondingKey);
+        }
+        removedEdges.forEach((value) -> System.out.println("Removed : " + value[0] + "-" + value[1]));
+        return betweennessesOfEdges;
+    }
+
+
+    public String[] getKeyFromValue(HashMap<String[], Integer> hashmap, Integer value) {
+        for (String[] key : hashmap.keySet()) {
+            if (hashmap.get(key) == value) {
+                return key;
+            }
+        }
+        System.out.println("No such key : " + value);
+        return null;
     }
 
 }

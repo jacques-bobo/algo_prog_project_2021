@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Project/project/DijkstraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/project/DijkstraTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/BFSShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/BFSShortestPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/BFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/BFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/DijkstraTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DijkstraTest.importTest">
+  <component name="RunManager" selected="JUnit.BFSTest.bfsTest">
     <configuration name="BFSTest.bfsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
@@ -136,9 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DijkstraTest.importTest" />
-        <item itemvalue="JUnit.DijkstraTest.printGraphTest" />
         <item itemvalue="JUnit.BFSTest.bfsTest" />
+        <item itemvalue="JUnit.DijkstraTest.printGraphTest" />
+        <item itemvalue="JUnit.DijkstraTest.importTest" />
         <item itemvalue="JUnit.DijkstraTest.test_printSP" />
         <item itemvalue="JUnit.DijkstraTest.TESTremoveEdgesWithHighestBetweenness" />
       </list>
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623885787407</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some minor modification">
+      <created>1623889765159</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623889765159</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

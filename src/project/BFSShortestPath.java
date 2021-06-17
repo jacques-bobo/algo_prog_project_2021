@@ -20,6 +20,8 @@ public class BFSShortestPath {
 			String u = queue.poll();
 			pathStack.add(u);
 			ArrayList<String> adjList = (ArrayList<String>) graph.getNeighbours(u);
+			if(u.equals(dest))
+				break;
 
 			for (String v : adjList) {
 				if (!visited.containsKey(v)) {
@@ -29,6 +31,7 @@ public class BFSShortestPath {
 			}
 		}
 
+		System.out.println(pathStack);
 		//To find the path
 		ArrayList<String> shortestPathList = new ArrayList<>();
 		String node, currentSrc = dest;

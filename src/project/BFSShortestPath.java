@@ -4,11 +4,11 @@ import java.util.*;
 
 public class BFSShortestPath {
 	public static ArrayList<String> doBFSShortestPath(WDGraph graph, String source, String dest) {
-		ArrayList<String> shortestPathList = new ArrayList<>();
-		HashMap<String, Boolean> visited = new HashMap<>();
 
 		if (source.equals(dest))
 			return null;
+
+		HashMap<String, Boolean> visited = new HashMap<>();
 		Queue<String> queue = new LinkedList<>();
 		Stack<String> pathStack = new Stack<>();
 
@@ -29,8 +29,8 @@ public class BFSShortestPath {
 			}
 		}
 
-
 		//To find the path
+		ArrayList<String> shortestPathList = new ArrayList<>();
 		String node, currentSrc = dest;
 
 		while (!pathStack.peek().equals(dest)) {

@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class BFSTest {
     public static final WDGraph GRAPH_TEST = new WDGraph();
 
+    // Question 3: Breadth First Search Algorithm
     @Test
     public void importTest() throws IOException {
         GRAPH_TEST.importGraph("gtfs/");

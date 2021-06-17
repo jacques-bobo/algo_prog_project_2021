@@ -12,6 +12,7 @@ public class DijkstraTest {
 
     public static final WDGraph GRAPH_TEST = new WDGraph();
 
+    // Question 2.1
     @Test
     public void importTest() throws IOException {
         GRAPH_TEST.importGraph("gtfs/");
@@ -20,6 +21,7 @@ public class DijkstraTest {
         System.out.println(GRAPH_TEST.nodesToVisit);
     }
 
+    // Question 2.2
     @Test
     public void printGraphTest() throws IOException {
         GRAPH_TEST.importGraph("gtfs/");
@@ -82,6 +84,7 @@ public class DijkstraTest {
         System.out.println(GRAPH_TEST.getNeighbours("PCTR"));
     }
 
+    // Question 2.2
     @Test
     public void add_weights_to_graph_test() throws IOException {
         GRAPH_TEST.importGraph("gtfs/");
@@ -104,6 +107,7 @@ public class DijkstraTest {
     }
 
 
+    // Question 3 : Dijkstra algorithm
     @Test
     public void given_FTVL_and_SHAY_when_distTo_then_print() throws IOException {
         GRAPH_TEST.importGraph("gtfs/");
@@ -111,6 +115,7 @@ public class DijkstraTest {
         System.out.println(GRAPH_TEST.distTo("FTVL","SHAY"));
     }
 
+    // Question 3 : Dijkstra algorithm
     @Test
     public void test_printSP() throws IOException {
         GRAPH_TEST.importGraph("gtfs/");
@@ -121,6 +126,7 @@ public class DijkstraTest {
 
 // #############
 
+    // Question 4. SHORTEST PATHS FOR GRAPH CLUSTERING
     @Test
     public void TESTgetListOfStopIds() throws IOException {
         GRAPH_TEST.importGraph("gtfs/");

@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a26e3a80-2deb-4637-919e-3bb1fbc38a97" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Project/project/DijkstraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Project/project/DijkstraTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project/BFSShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/BFSShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/BFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/BFSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/project/DijkstraTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BFSTest.bfsTest">
+  <component name="RunManager" selected="JUnit.DijkstraTest.importTest">
     <configuration name="BFSTest.bfsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
@@ -67,22 +70,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DijkstraTest.TESTgetBetweennessOfAllEdges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="project.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="project" />
-      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
-      <option name="METHOD_NAME" value="TESTgetBetweennessOfAllEdges" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DijkstraTest.TESTremoveEdgesWithHighestBetweenness" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project" />
       <extension name="coverage">
@@ -94,6 +81,22 @@
       <option name="PACKAGE_NAME" value="project" />
       <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
       <option name="METHOD_NAME" value="TESTremoveEdgesWithHighestBetweenness" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTest.importTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project" />
+      <option name="MAIN_CLASS_NAME" value="project.DijkstraTest" />
+      <option name="METHOD_NAME" value="importTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BFSTest.bfsTest" />
+        <item itemvalue="JUnit.DijkstraTest.importTest" />
         <item itemvalue="JUnit.DijkstraTest.printGraphTest" />
+        <item itemvalue="JUnit.BFSTest.bfsTest" />
         <item itemvalue="JUnit.DijkstraTest.test_printSP" />
         <item itemvalue="JUnit.DijkstraTest.TESTremoveEdgesWithHighestBetweenness" />
-        <item itemvalue="JUnit.DijkstraTest.TESTgetBetweennessOfAllEdges" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623885215668</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="some minor modification">
+      <created>1623885787407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1623885787407</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +203,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="added part 4 clustering" />
     <MESSAGE value="some path modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="some path modification" />
+    <MESSAGE value="some minor modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="some minor modification" />
   </component>
 </project>
